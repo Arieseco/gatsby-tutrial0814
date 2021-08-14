@@ -1,11 +1,12 @@
 import * as React from 'react'
+import Layout from '../components/layout'
 
-const about = () => {
+const AboutPage = () => {
   return (
-    <div>
-      
-    </div>
+    <Layout pageTitle="About Me">
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    </Layout>
   )
 }
 
-export default about
+export default AboutPage
